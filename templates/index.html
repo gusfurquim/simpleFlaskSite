@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFSP - Campus Araraquara</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div>📧 contato@ifsp.edu.br | 📞 (16) XXXX-XXXX</div>
+            <div>Portal do Aluno | Webmail</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">IFSP</div>
+                    <div class="site-title">
+                        <h1>Instituto Federal de São Paulo</h1>
+                        <p>Campus Araraquara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#institucional">Institucional</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#pesquisa">Pesquisa e Extensão</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Educação, Ciência e Tecnologia</h2>
+            <p>O IFSP Campus Araraquara oferece ensino público, gratuito e de qualidade, formando cidadãos capacitados para o mercado de trabalho e para a vida.</p>
+            <a href="#cursos" class="btn">Conheça Nossos Cursos</a>
+            <a href="#inscricoes" class="btn btn-secondary">Processo Seletivo</a>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section" id="noticias">
+        <div class="container">
+            <h2 class="section-title">Últimas Notícias</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image">📰</div>
+                    <div class="news-content">
+                        <p class="news-date">25 de Janeiro, 2026</p>
+                        <h3>Abertura de Inscrições para Processos Seletivos 2026</h3>
+                        <p>Estão abertas as inscrições para os cursos técnicos integrados e subsequentes ao ensino médio.</p>
+                        <a href="#" class="read-more">Leia mais →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">🏆</div>
+                    <div class="news-content">
+                        <p class="news-date">20 de Janeiro, 2026</p>
+                        <h3>Alunos conquistam prêmio em olimpíada de robótica</h3>
+                        <p>Equipe do campus Araraquara ficou em primeiro lugar na competição regional.</p>
+                        <a href="#" class="read-more">Leia mais →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">🔬</div>
+                    <div class="news-content">
+                        <p class="news-date">15 de Janeiro, 2026</p>
+                        <h3>Novos laboratórios de pesquisa inaugurados</h3>
+                        <p>Campus recebe investimento para modernização da infraestrutura científica.</p>
+                        <a href="#" class="read-more">Leia mais →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section" id="cursos">
+        <div class="container">
+            <h2 class="section-title">Nossos Cursos</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">💻</div>
+                    <h3>Técnico em Informática</h3>
+                    <p>Integrado e Subsequente</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">⚙️</div>
+                    <h3>Técnico em Mecânica</h3>
+                    <p>Integrado ao Ensino Médio</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🎓</div>
+                    <h3>Tecnologia em Sistemas</h3>
+                    <p>Graduação - Superior</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IFSP Araraquara</h3>
+                    <p>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
+                    <p>Campus Araraquara</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Endereço</h3>
+                    <ul>
+                        <li>Rua Exemplo, 1234</li>
+                        <li>Centro - Araraquara/SP</li>
+                        <li>CEP: 14801-000</li>
+                        <li>Tel: (16) 3303-1150</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Portal do Aluno</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#">Editais</a></li>
+                        <li><a href="#">Transparência</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 IFSP - Campus Araraquara. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
